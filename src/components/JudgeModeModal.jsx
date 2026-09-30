@@ -58,7 +58,7 @@ export default function JudgeModeModal({
           </span>
           <h3 className="font-extrabold text-sm text-purple-200 tracking-wide flex items-center gap-1.5">
             <Cpu className="w-4 h-4 text-purple-400" />
-            SIH 2025 JUDGE DEMO MODE (60s ACCELERATED RUN)
+            SIH 2026 JUDGE DEMO MODE (60s ACCELERATED RUN)
           </h3>
         </div>
         <button

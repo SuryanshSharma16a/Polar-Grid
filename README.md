@@ -12,7 +12,7 @@
 
 # ❄️ PolarGrid — AI-Powered Energy Intelligence for Earth's Last Frontier
 
-[![SIH 2026](https://img.shields.io/badge/SIH-2025-orange.svg?style=for-the-badge&logo=target)](https://sih.gov.in/)
+[![SIH 2026](https://img.shields.io/badge/SIH-2026-orange.svg?style=for-the-badge&logo=target)](https://sih.gov.in/)
 [![Problem ID](https://img.shields.io/badge/Problem%20ID-SIH26061-blue.svg?style=for-the-badge)](https://sih.gov.in/)
 [![Ministry](https://img.shields.io/badge/Ministry-Earth%20Sciences%20(MoES)-00d4ff.svg?style=for-the-badge)](https://moes.gov.in/)
 [![Team](https://img.shields.io/badge/Team-DRISHTI-00ff88.svg?style=for-the-badge)](https://github.com/team-drishti)

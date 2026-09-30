@@ -15,12 +15,12 @@ export default function AboutPage() {
             </h1>
           </div>
           <p className="text-xs text-slate-400 mt-1">
-            Technical blueprint of PolarGrid for Smart India Hackathon 2025 (SIH26061) • MoES
+            Technical blueprint of PolarGrid for Smart India Hackathon 2026 (SIH26061) • MoES
           </p>
         </div>
 
         <div className="px-3 py-1.5 rounded-xl bg-polar-900 border border-polar-cyan/30 text-xs font-mono text-polar-cyan font-bold">
-          TEAM DRISHTI • SIH2025
+          TEAM DRISHTI • SIH2026
         </div>
       </div>
 

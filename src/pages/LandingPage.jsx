@@ -29,7 +29,7 @@ export default function LandingPage({ setActiveTab, startJudgeMode }) {
         {/* SIH Badge */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-polar-900/90 border border-polar-cyan/30 text-polar-cyan text-xs font-mono mb-4 shadow-polar-glow">
           <Award className="w-4 h-4 text-polar-aurora" />
-          <span>SMART INDIA HACKATHON 2025 • PROBLEM STATEMENT SIH26061</span>
+          <span>SMART INDIA HACKATHON 2026 • PROBLEM STATEMENT SIH26061</span>
         </div>
 
         {/* Official PolarGrid Logo */}
@@ -191,7 +191,7 @@ export default function LandingPage({ setActiveTab, startJudgeMode }) {
         <div className="p-6 rounded-2xl bg-polar-900/90 border border-polar-cyan/20">
           <div className="flex items-center justify-center gap-2 text-polar-cyan font-mono text-xs font-bold mb-2">
             <Sparkles className="w-4 h-4" />
-            <span>DEVELOPED FOR SMART INDIA HACKATHON 2025</span>
+            <span>DEVELOPED FOR SMART INDIA HACKATHON 2026</span>
           </div>
           <h3 className="text-xl font-extrabold text-white">SUBMITTED BY TEAM DRISHTI</h3>
           <p className="text-xs text-slate-400 mt-1 max-w-xl mx-auto">

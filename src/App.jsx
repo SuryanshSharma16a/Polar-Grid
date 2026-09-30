@@ -112,7 +112,7 @@ export default function App() {
       <footer className="border-t border-polar-cyan/10 bg-polar-950 py-6 px-4 mt-auto text-center text-xs text-slate-500 font-mono">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
           <div>
-            <span className="text-slate-300 font-bold">PolarGrid v1.0</span> • Smart India Hackathon 2025 (SIH26061)
+            <span className="text-slate-300 font-bold">PolarGrid v1.0</span> • Smart India Hackathon 2026 (SIH26061)
           </div>
           <div>
             Submitted to Ministry of Earth Sciences (MoES) • Team DRISHTI
