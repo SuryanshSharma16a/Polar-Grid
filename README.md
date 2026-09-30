@@ -6,6 +6,10 @@
 /_/    \____/_____/_/  |_/_/ |_|\____/ /_/ |_/___/    
 ```
 
+<p align="center">
+  <img src="./public/logo.png" width="200" alt="PolarGrid Logo" />
+</p>
+
 # ❄️ PolarGrid — AI-Powered Energy Intelligence for Earth's Last Frontier
 
 [![SIH 2026](https://img.shields.io/badge/SIH-2025-orange.svg?style=for-the-badge&logo=target)](https://sih.gov.in/)

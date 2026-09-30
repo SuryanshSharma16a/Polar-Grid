@@ -27,9 +27,18 @@ export default function LandingPage({ setActiveTab, startJudgeMode }) {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-gradient-to-b from-polar-aurora/15 via-polar-cyan/10 to-transparent blur-3xl pointer-events-none" />
 
         {/* SIH Badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-polar-900/90 border border-polar-cyan/30 text-polar-cyan text-xs font-mono mb-6 shadow-polar-glow">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-polar-900/90 border border-polar-cyan/30 text-polar-cyan text-xs font-mono mb-4 shadow-polar-glow">
           <Award className="w-4 h-4 text-polar-aurora" />
           <span>SMART INDIA HACKATHON 2025 • PROBLEM STATEMENT SIH26061</span>
+        </div>
+
+        {/* Official PolarGrid Logo */}
+        <div className="mb-4 flex items-center justify-center">
+          <img
+            src="/logo.png"
+            alt="PolarGrid Logo"
+            className="w-28 h-28 sm:w-36 sm:h-36 object-contain drop-shadow-[0_0_25px_rgba(0,212,255,0.4)] animate-float"
+          />
         </div>
 
         {/* Main Title */}

@@ -54,11 +54,11 @@ export default function Navbar({
         {/* Brand & MoES SIH Badge */}
         <div className="flex items-center gap-3 w-full md:w-auto justify-between md:justify-start">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveTab('landing')}>
-            <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-polar-cyan via-polar-700 to-polar-aurora p-0.5 shadow-polar-glow">
-              <div className="w-full h-full bg-polar-950 rounded-[10px] flex items-center justify-center">
-                <Zap className="w-5 h-5 text-polar-cyan animate-pulse" />
-              </div>
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="PolarGrid Logo" 
+              className="w-10 h-10 object-contain rounded-xl shadow-polar-glow bg-polar-900 border border-polar-cyan/30 p-0.5" 
+            />
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-extrabold text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white via-polar-ice to-polar-cyan">
