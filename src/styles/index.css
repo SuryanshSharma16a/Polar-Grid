@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #060d19;
+    color: #e2e8f0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  /* Custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a1628;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1b3358;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00d4ff;
+  }
+}
+
+/* Glassmorphism styling */
+.glass-panel {
+  background: rgba(17, 34, 64, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 212, 255, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-panel-hover:hover {
+  border-color: rgba(0, 212, 255, 0.35);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.glass-panel-danger {
+  background: rgba(40, 15, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 68, 68, 0.3);
+}
+
+.glass-panel-success {
+  background: rgba(10, 35, 25, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+}
+
+/* Animated flow lines */
+.power-flow-line {
+  stroke-dasharray: 8 6;
+  animation: dash 1s linear infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 28;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.power-flow-line-reverse {
+  stroke-dasharray: 8 6;
+  animation: dash-reverse 1s linear infinite;
+}
+
+@keyframes dash-reverse {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 28;
+  }
+}
+
+/* Glow effects */
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+}
+
+.text-glow-aurora {
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 10px rgba(255, 170, 0, 0.6);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 10px rgba(255, 68, 68, 0.6);
+}
+
+/* Pulse animation for status dots */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 212, 255, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 212, 255, 0);
+  }
+}
+
+.pulse-dot {
+  animation: pulse-ring 2s infinite;
+}
+
+/* Aurora Background Banner */
+.aurora-bg {
+  background: radial-gradient(circle at 50% -20%, rgba(0, 255, 136, 0.15), rgba(0, 212, 255, 0.1), transparent 70%),
+              radial-gradient(circle at 80% 20%, rgba(0, 212, 255, 0.08), transparent 50%),
+              radial-gradient(circle at 20% 80%, rgba(168, 216, 234, 0.05), transparent 50%);
+}
